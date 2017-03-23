@@ -21,6 +21,7 @@ int main(int argc, char *argv[]){
         }*/
 	while(1){
 		ret = system("arecord -r16000 -c1 -d1 -f S16_LE -q data.wav");
+		clearScreen();
 		if(WIFSIGNALED(ret) && (WTERMSIG(ret)==SIGINT || WTERMSIG(ret)==SIGQUIT))break;
 		fp = fopen("data.wav", "r");
         	fread(&myhdr, sizeof(myhdr), 1, fp);
