@@ -16,7 +16,7 @@ typedef struct {
 	char SubChunk2ID[4];
 	int SubChunk2Size;
 }WAVHDR;
-#define DEBUG
+//#define DEBUG
 #define PI 3.14
 #define SAMPLE_RATE 16000
 // function prototypes
