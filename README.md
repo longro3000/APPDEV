@@ -55,6 +55,8 @@ step 3.	Run “sudo aptitude versions alsa-utils” to check if version 1.0.25 o
 
 step 4. Run “sudo apt-get install alsa-utils=1.0.25-4” to downgrade.
 
+===============================================================================
+
 2.Installation
 
 libcurl must be installed in your raspberry Pi.to do so you need to.
@@ -66,6 +68,8 @@ step 2.	If the folder doesn’t exist. Run “sudo apt-get update” to update t
 step 3.	Run “sudo apt-get install libcurl3” to install the libcurl3.
 
 step 4.	Run “sudo apt-get install libcurl4-openssl-dev” to install the development API of libcurl4.
+
+=================================================================================
 
 3.File contents
 
@@ -85,6 +89,8 @@ sound.php : php program to write signal captured into a txt file.
 
 sound.html : html program to display signal captured on web browser.
 
+........
+
 3.2 Library
 
 comm.h : define server.
@@ -92,6 +98,8 @@ comm.h : define server.
 screen.h : define display settings
 
 wave.h : define debug mode
+
+============================================================================
 
 4.Operating
 
@@ -108,6 +116,8 @@ if not , press "0".
 if you want to see the ascoustic waves in web based display . click on "sound.html".
 
 use "make clean" command to reset the sound.a file for reuseing the program.
+
+============================================================================
 
 5.TroubleShooting
 
